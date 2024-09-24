@@ -12,7 +12,7 @@ pipeline {
       }
     }
 
-    stage('Build') {
+    stage('install node v10 / shell script') {
       steps {
         sh 'echo "stage 2"'
       }

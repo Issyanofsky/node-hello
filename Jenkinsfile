@@ -6,7 +6,7 @@ pipeline {
 
   }
   stages {
-    stage('error') {
+    stage('echeckout-code') {
       steps {
         sh 'echo "hello world"'
       }

@@ -12,9 +12,9 @@ pipeline {
       }
     }
 
-    stage('test') {
+    stage('build') {
       steps {
-        sh 'echo "Test 1111"'
+        sh 'echo "Buikd"'
       }
     }
 

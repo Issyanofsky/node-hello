@@ -19,7 +19,7 @@ pipeline {
 
 curl -O https://nodejs.org/dist/v10.24.1/node-v10.24.1-linux-x64.tar.xz
 
-tar -xzvf node-v10.24.1-linux-x64.tar.xz node/
+tar -xJvf node-v10.24.1-linux-x64.tar.xz node/
 ls node/
 '''
       }

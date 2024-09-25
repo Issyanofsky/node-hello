@@ -6,15 +6,9 @@ pipeline {
 
   }
   stages {
-    stage('echeckout-code') {
+    stage('checkout-code') {
       steps {
         sh 'echo "hello world"'
-      }
-    }
-
-    stage('install node v10 / shell script') {
-      steps {
-        sh 'echo "stage 2"'
       }
     }
 

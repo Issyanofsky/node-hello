@@ -6,9 +6,9 @@ pipeline {
 
   }
   stages {
-    stage('Checkout-code') {
+    stage('checkout-code') {
       steps {
-        sh 'echo "Hello world"'
+        sh 'echo "Hello World!!"'
       }
     }
 
